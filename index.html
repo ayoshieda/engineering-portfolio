@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Amitabha Yoshieda | Engineering Portfolio</title>
+<meta name="description" content="Engineering portfolio of Amitabha Yoshieda — controls, embedded systems, electronics, and mechanical design.">
+<style>
+:root{--ink:#11151a;--muted:#66717d;--line:#dfe4e8;--accent:#2c6c72;--warm:#a85b16;--bg:#f7f8f9}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+.wrap{max-width:1050px;margin:auto;padding:0 24px}.hero{background:#101419;color:white;padding:72px 0 58px}.eyebrow{font:700 12px/1.2 monospace;letter-spacing:.18em;color:#9bbbc7}.hero h1{font-size:clamp(42px,7vw,72px);line-height:.98;margin:18px 0 22px;max-width:750px}.hero p{max-width:720px;color:#c7ced5;font-size:18px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:13px 18px;border-radius:6px;text-decoration:none;font-weight:700;background:white;color:#101419}.btn.alt{background:transparent;color:white;border:1px solid #6d7780}.section{padding:54px 0}.section h2{font-size:30px;margin:0 0 8px}.lead{color:var(--muted);margin:0 0 28px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:10px;padding:24px}.tag{font:700 11px monospace;letter-spacing:.12em;color:var(--accent)}.card h3{margin:9px 0 8px;font-size:22px}.card p{color:var(--muted);margin:0}.metric{font:700 24px monospace;color:var(--warm);margin-top:17px}.skills{display:flex;flex-wrap:wrap;gap:9px}.pill{background:white;border:1px solid var(--line);padding:8px 11px;border-radius:999px;font-size:14px}.contact{background:white;border-top:1px solid var(--line);padding:40px 0}.contact a{color:var(--accent)} footer{padding:20px 0;color:var(--muted);font-size:13px}.pdfbox{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.pdfbox p{margin:4px 0 0;color:var(--muted)}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:50px}.pdfbox{align-items:flex-start;flex-direction:column}}
+</style></head>
+<body>
+<header class="hero"><div class="wrap"><div class="eyebrow">ENGINEERING PORTFOLIO</div><h1>Amitabha<br>Yoshieda</h1><p>B.S. Mechatronic Engineering · Minor in Computer Engineering · California State University, Chico · Spring 2027</p><div class="buttons"><a class="btn" href="Amitabha_Yoshieda_Engineering_Portfolio.pdf" target="_blank">View Full Portfolio</a><a class="btn alt" href="#projects">Featured Projects</a><a class="btn alt" href="https://www.linkedin.com/in/amitabha-yoshieda-12354342b" target="_blank" rel="noopener">LinkedIn</a></div></div></header>
+<main>
+<section class="section"><div class="wrap"><h2>Engineering across hardware and software</h2><p class="lead">Controls, bare-metal embedded systems, electronics, signal processing, and mechanical design — with measured hardware results wherever possible.</p><div class="skills"><span class="pill">PI Control</span><span class="pill">MATLAB / Simulink</span><span class="pill">Bare-metal C</span><span class="pill">TM4C123</span><span class="pill">STM32</span><span class="pill">ADC / PWM / Timers</span><span class="pill">UART / I²C</span><span class="pill">LTspice</span><span class="pill">SolidWorks</span><span class="pill">FEA</span></div></div></section>
+<section id="projects" class="section"><div class="wrap"><h2>Featured work</h2><p class="lead">Selected results from the full engineering portfolio.</p><div class="grid">
+<article class="card"><div class="tag">CONTROLS</div><h3>PI control of an RC plant</h3><p>Pole placement, MATLAB PID Tuner, op-amp implementation, and 10 hardware trials.</p><div class="metric">0.283 s settling · 2.07% overshoot</div></article>
+<article class="card"><div class="tag">EMBEDDED</div><h3>Bare-metal PWM motor control</h3><p>TM4C123 register-level C with timer-triggered ADC, PWM, LCD interface, and discrete motor driver.</p><div class="metric">1.492 kHz measured PWM</div></article>
+<article class="card"><div class="tag">EMBEDDED</div><h3>Two-MCU joystick-to-servo</h3><p>TM4C123 to STM32F303 communication using ADC, UART interrupts, and PWM servo control.</p><div class="metric">8 µs tested deadband</div></article>
+<article class="card"><div class="tag">SIGNALS</div><h3>Vibration monitoring & FFT</h3><p>ADXL345 with bare-metal I²C, UART streaming, and MATLAB frequency-domain analysis.</p><div class="metric">≈ 6 Hz dominant vibration</div></article>
+<article class="card"><div class="tag">ELECTRONICS</div><h3>Discrete 7 V linear regulator</h3><p>BJT + Zener design validated in LTspice and on a soldered prototype.</p><div class="metric">56 mV variation, 10–16 V input</div></article>
+<article class="card"><div class="tag">MECHANICAL</div><h3>Ducted-fan car</h3><p>Steering and damper design, machining, SolidWorks, and FEA for a team design competition.</p><div class="metric">1st Place · ME Design Competition</div></article>
+</div></div></section>
+<section class="section"><div class="wrap"><div class="pdfbox"><div><strong>Want the detailed engineering work?</strong><p>The full 9-page PDF includes schematics, plots, hardware photos, calculations, and measured results.</p></div><a class="btn" style="background:#101419;color:white" href="Amitabha_Yoshieda_Engineering_Portfolio.pdf" target="_blank">Open Portfolio PDF</a></div></div></section>
+</main>
+<section class="contact"><div class="wrap"><h2>Contact</h2><p><a href="mailto:amitabhayb2003@gmail.com">amitabhayb2003@gmail.com</a> · <a href="https://www.linkedin.com/in/amitabha-yoshieda-12354342b" target="_blank" rel="noopener">LinkedIn</a> · Chico, CA</p></div></section>
+<footer><div class="wrap">Amitabha Yoshieda · Engineering Portfolio</div></footer>
+</body></html>
